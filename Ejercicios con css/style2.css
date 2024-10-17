@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    grid-template-rows: auto 1fr auto auto auto; 
+    gap: 10px; 
+    width: 80%;
+    margin: 0 auto; 
+    height: 500px; 
+    align-content: stretch;
+
+} 
+
+body {
+    font-family: Arial, sans-serif; 
+}
+    .header {
+    grid-column: 1 / 3; 
+    background-color: #42a5f5; 
+    padding: 10px;
+}
+
+    .hero {
+    background-color: #e1bee7; 
+    padding: 10px;
+}
+
+    .main-content {
+    background-color: #ffd740; 
+    padding: 10px;
+}
+
+    .sidebar {
+    background-color: #aed581; 
+    padding: 10px;
+}
+
+    .extra-content {
+    grid-column: 2 / 3; 
+    background-color: #78909c; 
+    padding: 10px;
+}
+
+    .related-images {
+    grid-column: 1 / 2;
+    background-color: #4caf50; 
+    padding: 10px;
+}
+
+    .related-posts {
+    background-color: #f8bbd0; 
+    padding: 10px;
+}
+
+    .footer {
+    grid-column: 1 / 3; 
+    background-color: #ff9800; 
+    padding: 10px;
+}
